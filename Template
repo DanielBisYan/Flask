@@ -1,0 +1,17 @@
+In order to create a new website, it is suggested to create new virtual environment first. 
+
+We can do it by creating 'Environments' folder, and then going there and creating virtual environment by the command 'virtualenv name_of_project_env'. 
+
+Once the virtual environment is created we can go and activate it by the command 'name_of_project_env\Scripts\activate'
+
+We can deactivate it by the command 'deactivate'
+
+In order to create flask inside our environment we need to put the command 'set FLASK_APP=flaskblog.py', but first need to import flask if we don't have it yet.
+
+To run it, we need to type 'flask run'
+
+To run it in debug mode 'set FLASK_DEBUG=1'
+
+In order to run our project, we can also use 'python flaskblog.py'
+
+*rembmer to be in the same directory
